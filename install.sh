@@ -20,7 +20,7 @@ sudo apt-get -y install libmysql++-dev
 mkdir ~/src
 cd ~/src
 wget ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p392.tar.bz2
-tar xvfj ruby-1.9.3-p392.tar.gz
+tar xvfj ruby-1.9.3-p392.tar.bz2
 cd ruby-1.9.3-p392
 ./configure
 make
